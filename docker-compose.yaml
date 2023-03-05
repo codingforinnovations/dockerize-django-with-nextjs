@@ -1,0 +1,42 @@
+version: '3.9'
+
+services:
+  web:
+    container_name: web
+    build:
+      context: .
+      dockerfile: apps/docker/web/Dockerfile
+    volumes:
+      - static:/app/web/static
+
+    ports:
+      - 8000:8000
+    env_file:
+      - ./apps/web/.env
+
+
+  www:
+    container_name: www
+    build:
+      context: .
+      dockerfile: apps/docker/www/Dockerfile
+    volumes:
+      - node_modules:/app/www/node_modules
+
+    ports:
+      - 3000:3000
+
+  nginx:
+    container_name: nginx
+    build:
+      context: .
+      dockerfile: apps/docker/nginx/Dockerfile
+    volumes:
+      - static:/app/web/static
+    ports:
+      - 80:80
+
+
+volumes:
+  static:
+  node_modules:
