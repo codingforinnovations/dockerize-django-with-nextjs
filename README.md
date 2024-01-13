@@ -13,6 +13,8 @@
 
 A Bootstrapped Template of Django with Nextjs using Docker!
 
+### Youtube Video: [Link](https://www.youtube.com/watch?v=ettHsKT2z9I)
+
 ## 📚 Stack
 
 - [Next Js](https://www.nextjs.org/) - The React  Framework  for the Web.
@@ -41,8 +43,6 @@ $PROJECT_ROOT
 ├── apps/www  # Nextjs App
 │   
 ├── apps/web/requirements # Python Requirements
-│
-├── app.py # Entry Point for Django Backend
 │
 ├── apps/web/manage.py # Run Django Commands
 │
