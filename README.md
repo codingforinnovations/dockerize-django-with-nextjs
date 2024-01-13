@@ -1,18 +1,35 @@
+<p align="center">
+  <p align="center">
+    <a href="https://www.youtube.com/@codingforinnovations" target="_blank">
+      <img src=".github/static/logo.png" height="72" alt="Coding for Innovations Logo"/>    
+    </a>
+  </p>
+  <p align="center">
+    For Programmers, By Programmers.
+  </p>
+</p>
 
 # Dockerize Django with Nextjs
 
 A Bootstrapped Template of Django with Nextjs using Docker!
 
-## Stack
+## 📚 Stack
 
 - [Next Js](https://www.nextjs.org/) - The React  Framework  for the Web.
 - [Django](https://www.djangoproject.com/) - Django makes it easier to build better web apps more quickly and with less code.
 - [Typescript](https://www.typescriptlang.org/) - JavaScript with syntax for types.
--  [Docker](https://www.docker.com/)  - Docker is a platform designed to help developers build, share, and run modern applications. We handle the tedious setup, so you can focus on the code.
+- [Docker](https://www.docker.com/)  - Docker is a platform designed to help developers build, share, and run modern applications. We handle the tedious setup, so you can focus on the code.
 - [Nginx](https://www.nginx.com/) - Advanced Load Balancer, Web Server, & Reverse Proxy.
 
+  ## 📸 Screenshots:
+- Frontend:
+<img src=".github/static/www.png" alt="Webpage"/> 
 
-## Project structure
+- Backend:
+<img src=".github/static/web.png" alt="Backend"/> 
+
+
+## 📁 Project structure
 
 ```
 $PROJECT_ROOT
@@ -33,7 +50,7 @@ $PROJECT_ROOT
 ```
 ---
 
-### Get the Code
+### 🏆 Getting Started:
 
 - Clone Repo
 
@@ -106,10 +123,15 @@ npm run dev
 npm run build
 ```
 
-## LICENSE:
+## 🎫 LICENSE:
 
 [MIT LICENSE](https://github.com/codingforinnovations/dockerize-django-with-nextjs/blob/main/LICENSE) .
 
-## Change Log:
+## 🆕 Change Log:
 
 [Change Log](https://github.com/codingforinnovations/dockerize-django-with-nextjs/commits/main) .
+
+<div align="center">
+<i>Other places you can find us:</i><br>
+<a href="https://www.youtube.com/@codingforinnovations" target="_blank"><img src="https://img.shields.io/badge/YouTube-%23E4405F.svg?&style=flat-square&logo=youtube&logoColor=white" alt="YouTube"></a>
+</div>
